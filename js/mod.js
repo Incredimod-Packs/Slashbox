@@ -33,7 +33,7 @@ function onLockedIcon() {
   Shake(10, 500);
   Bloom(5, 500);
   MakeConfetti(3, 0.5, 0.5, 100, 100, "custom-cursor", "asset-v2/dust.png");
-  PlaySFX("explosion.ogg");
+  PlaySFX("explosion.mp3");
   QuickMessage("YOU SHALL NOT PASS!", 500);
 }
 
