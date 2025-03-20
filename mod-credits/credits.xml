@@ -14,10 +14,16 @@ FORMATTING:
 
 <credits>
   <page 
-  noImage="true"
-  image=""
-  title="Credit Page"
-  text="You can edit this page inside (!italic/mod-credits/credits.xml file.)(!line) You can add more pages by copying the page tag and pasting it below the last page tag."
+  noImage="False"
+  image="mod-credits/02c_Author-hd.png"
+  title="Author Of This Amazing Mod"
+  text="(!color/#9ebc71/(!bold/HantaNyaw44)): Creator, Director, Composer, Designer, Animator and Coder of this Mod.(!line)(!line)(!hr)(!line) (!button/#8f1e22/social_youtube.png/https://www.youtube.com/@hantanyaw44//Hanta's Channel) "
+  />
+  <page 
+  noImage="False"
+  image="mod-credits/04c_sirens-credits-hd.png"
+  title="The Team That Created Sirens!!!"
+  text="(!color/#9ebc71/(!bold/HantaNyaw44)): Creator, Director, Composer, Designer, Animator and Coder.(!line) Kuro: Polo Designer (!line) Mono: Polo and Icon Designer (and half of the credits) (!line) MrRoasterToaster: Ideator"
   />
   <page 
   noImage="false"
