@@ -19,16 +19,22 @@ let ShakeEffectOn=null===localStorage.getItem("ShakeEffectOn")||"true"===localSt
 
 
 // Register your mod here
-var RegisterMod = "Unknow";
-var RegisterModVersion = "0.0.1";
-var ModDeveloper = "Developer";
+var RegisterMod = "SlashBox";
+var RegisterModVersion = "0.1.0";
+var ModDeveloper = "HantaNyaw44";
 
 // Simple function for locked icons!
-function onLockedIcon(){
-  boxDialog.open('This Icon is locked', 'LOCKED!')
+//function onLockedIcon(){
+ // boxDialog.open('This Icon is locked', 'LOCKED!')
+//}
+
+function onLockedIcon() {
+  Hide(2);
+  Shake(10, 500);
+  Bloom(5, 500);
+  MakeConfetti(3, 0.5, 0.5, 100, 100, "custom-cursor", "asset-v2/dust.png");
+  PlaySFX("explosion.ogg");
+  QuickMessage("YOU SHALL NOT PASS!", 500);
 }
 
-function onV1Bonus1Finished(){ 
-  QuickMessage("Bonus Ended")
-  Shake(10, 500)
-}
+// Check examples.js for more functions and triggers!
