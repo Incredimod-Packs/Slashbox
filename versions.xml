@@ -12,6 +12,7 @@ HOW TO USE IT:
 
 <icons>
   <line>
-    <icon name="Template" ID="1" color="#666" locked="false" customName="true" customIcon="asset-v1/icon.png" hidden="false"></icon>
+    <icon name="Sirens" ID="1" color="#666" locked="false" customName="true" customIcon="asset-v1/icon.png" hidden="false"></icon>
+    <icon name="Starvation" ID="2" color="#666" locked="true" customName="true" customIcon="asset-v2/icon.png" hidden="false"></icon>
   </line>
 </icons>
